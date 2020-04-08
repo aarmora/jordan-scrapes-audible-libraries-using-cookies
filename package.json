@@ -1,0 +1,28 @@
+{
+	"name": "scraper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js",
+		"google": "tsc && node ./dist/google.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"dotenv": "^8.2.0",
+		"googleapis": "^48.0.0",
+		"mongodb": "^3.5.5",
+		"puppeteer": "^2.1.1",
+		"puppeteer-extra": "^3.1.9",
+		"puppeteer-extra-plugin-stealth": "^2.4.9"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/dotenv": "^8.2.0",
+		"@types/mongodb": "^3.5.4",
+		"@types/puppeteer": "^2.0.1",
+		"typescript": "^3.8.3"
+	}
+}
